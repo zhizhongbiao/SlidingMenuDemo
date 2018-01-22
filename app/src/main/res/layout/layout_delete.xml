@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140px"
+    android:layout_height="227px"
+    android:gravity="center"
+    android:background="#e60012"
+    android:text="删除"
+    android:id="@+id/tvDelete"
+
+    android:textSize="28px" />
+

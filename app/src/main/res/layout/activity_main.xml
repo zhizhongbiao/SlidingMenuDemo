@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:sliding="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+
+
+
+
+    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:id="@+id/sm"
+        android:background="#ffffffff"
+        sliding:behindOffset="290dp"
+        sliding:behindScrollScale="1"
+
+        sliding:fadeDegree="0.3"
+        sliding:fadeEnabled="true"
+        sliding:touchModeAbove="fullscreen"
+        sliding:mode="right"
+        sliding:viewAbove="@layout/layout_add"
+        sliding:viewBehind="@layout/layout_delete"
+        >
+
+
+
+    </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+
+</LinearLayout>
